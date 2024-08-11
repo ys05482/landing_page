@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffcccb;
+    color: #333;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: rgb(119, 119, 180);
+}
+
+.cake .container {
+    img {
+        width: 500px;
+        height: auto;
+        margin-top: 0%;
+        border-radius: 100%;
+  
+    }
+    
+}
+
+.container_1 {
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+.cake h2 {
+    margin-right: 50px;
+    font-size: 2.5rem;
+    
+}
+
+.cake p {
+    font-size: 1.5rem;
+    align-items: center;
+    padding-left: 250px;
+    font-weight: bold;
+    transition: transform 0.6s ease;
+}
+
+.cake p:hover {
+    color: #ff4d4d;
+    transform: scale(1.2);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ff4d4d;
+}
+
+section {
+    padding: 2rem;
+}
+
+.about h2 {
+    color: #150c4f;
+}
+
+p {
+    font-size: 20px
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.about, .menu, .contact {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.menu-item {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cake-img {
+    flex: 1 1 200px;
+    text-align: center;
+}
+.cake-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 25px;
+    color: #4d257f;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff4d4d;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
